@@ -1,0 +1,33 @@
+.special-heading {
+  font-size: 100px;
+  color: #ebeced;
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: -3px;
+  margin: 0;
+  max-width: 100%;
+}
+
+.special-heading + p {
+  margin: -35px 0 0;
+  text-align: center;
+  color: #797979;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .special-heading {
+    font-size: 60px;
+  }
+  .special-heading + p {
+    margin-top: -20px;
+  }
+}
+
+/* grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  margin-top: 100px;
+  grid-gap: 30px;                       
+}
