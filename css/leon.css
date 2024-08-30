@@ -430,6 +430,7 @@ body {
   font-weight: 800;
   color: var(--main-color);
   text-decoration: none;
+  max-width: 100%;
 }
 
 .contact .info .social {
@@ -447,7 +448,7 @@ body {
 @media (max-width: 767px) {
   .contact .info .label,
   .contact .info .link {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 /* end contact */
@@ -464,4 +465,5 @@ body {
   font-weight: bold;
   color: var(--main-color);
 }
+
 /* end footer */
